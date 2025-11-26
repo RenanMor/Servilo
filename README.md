@@ -23,8 +23,9 @@ O projeto é composto por diversas páginas HTML principais e um arquivo CSS par
 - `mural.html`: Página de mural de serviços, onde são listados exemplos de trabalhadores cadastrados com foto, breve descrição, avaliação e um botão para contratar o serviço.
 - `style.css`: Arquivo de estilos CSS para todas as páginas do projeto.
 - `curriculoGabrielDesouzaXavier.html`: Currículo de Gabriel de Souza Xavier.
-- `curriculoGabrielDesouzaXavier.css`: Arquivo Css do currículo de Gabriel de Souza Xavier.
 - `curriculoRenanPereiraLimadeMoraes.html`: Currículo de Renan Pereira Lima de Moraes.
+- `admin.html`: Página de administração de usuários.
+- `admin.js`: Lógica JavaScript para a página de administração.
 
 ## Integrantes da Equipe
 - **Renan Pereira Lima de Moraes** (RA: 2211220)

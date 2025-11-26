@@ -32,7 +32,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background: var(--primary-color);
+    background: #0e210e;
     color: var(--white-color);
     padding: 1rem 0;
     border-bottom: 3px solid var(--secondary-color);
@@ -373,211 +373,6 @@ footer .curriculos a:hover {
     }
 }
 
-/* Estilos para os currículos */
-/* curriculoGabrielDesouzaXavier.css */
-
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-}
-
-.container {
-    max-width: 900px;
-    margin: 20px auto;
-    background: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-header {
-    text-align: center;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 20px;
-}
-
-header h1 {
-    color: #4CAF50;
-    margin-bottom: 10px;
-}
-
-.contact-info ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.contact-info li {
-    display: flex;
-    align-items: center;
-    color: #555;
-}
-
-.contact-info li a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-.contact-info li a:hover {
-    text-decoration: underline;
-}
-
-.section {
-    margin-bottom: 25px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #eee;
-}
-
-.section:last-of-type {
-    border-bottom: none;
-}
-
-.section h2 {
-    color: #333;
-    border-bottom: 2px solid #f0f0f0;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-}
-
-.section h3 {
-    color: #4CAF50;
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-
-.section p {
-    margin-bottom: 10px;
-}
-
-.section ul {
-    list-style: disc;
-    margin-left: 20px;
-}
-
-.section ul li {
-    margin-bottom: 5px;
-}
-
-figure {
-    margin: 20px 0;
-    text-align: center;
-}
-
-figure img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-figcaption {
-    font-style: italic;
-    color: #777;
-    margin-top: 5px;
-}
-
-#cv-footer {
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px solid #eee;
-    color: #777;
-    font-size: 0.9em;
-}
-
-/* Estilos para o currículo do Renan */
-/* Adicionei um estilo básico para o currículo do Renan para que ele não fique sem formatação */
-/* Idealmente, cada currículo teria seu próprio CSS ou um CSS base compartilhado */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-}
-
-header figure img {
-    border-radius: 50%;
-    margin-top: 10px;
-    border: 3px solid #fff;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section {
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 15px;
-}
-
-section:last-of-type {
-    border-bottom: none;
-}
-
-h2 {
-    color: #007bff;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
-ul li strong {
-    color: #555;
-}
-
-ul li a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-ul li a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    margin-top: 20px;
-}
-
-
-
 /* Estilos para a página de Perfil (perfil.html) */
 .profile-page {
     display: flex;
@@ -593,7 +388,7 @@ footer {
 
 .profile-card {
     background: var(--white-color);
-    padding: 40px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     width: 100%;
@@ -888,4 +683,207 @@ footer {
     font-style: italic;
     color: #777;
     padding: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+.curriculo-body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #f4f8fb;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+.curriculo-container {
+    max-width: 850px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    padding: 32px 36px;
+    border: 1px solid #e0e0e0;
+}
+
+.curriculo-header {
+    text-align: center;
+    margin-bottom: 28px;
+    border-bottom: 2px solid #0a3d62;
+    padding-bottom: 15px;
+}
+
+.curriculo-header h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-bottom: 0.2em;
+    text-shadow: 1px 1px 0 #e0e0e0;
+}
+
+.curriculo-contact-info ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.curriculo-contact-info li {
+    display: flex;
+    align-items: center;
+    color: #e17055;
+}
+
+.curriculo-contact-info a {
+    color: #e17055;
+    text-decoration: underline;
+    transition: color 0.2s, text-decoration 0.2s;
+}
+.curriculo-contact-info a:hover {
+    color: #e17055;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.curriculo-section {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.curriculo-section:last-of-type {
+    border-bottom: none;
+}
+
+.curriculo-section h2 {
+    color: #333;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.curriculo-section h3 {
+    color: #e17055;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.curriculo-section p {
+    margin-bottom: 10px;
+}
+
+.curriculo-section ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.curriculo-section ul li {
+    margin-bottom: 5px;
+}
+
+.curriculo-habilidades ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    list-style: none; 
+}
+.curriculo-habilidades li {
+    background: #eaf6ff;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-weight: 500;
+    color: #0a3d62;
+    font-style: oblique;
+}
+
+.curriculo-ods figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 18px 0;
+}
+.curriculo-ods img {
+    border-radius: 8px;
+    border: 2px solid #0a3d62;
+    box-shadow: 0 2px 8px rgba(10,61,98,0.08);
+    max-width: 150px;
+    height: auto;
+}
+.curriculo-ods figcaption {
+    font-size: 1em;
+    color: #0a3d62;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+.curriculo-links a {
+    color: #0984e3;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+.curriculo-links a:hover {
+    color: #d35400;
+    text-decoration: underline;
+}
+
+.curriculo-footer {
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.95em;
+    margin-top: 32px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 12px;
+}
+
+.curriculo-renan-body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.curriculo-renan-body main section h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.curriculo-renan-body main section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.curriculo-renan-body main section ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.curriculo-renan-body main section ul li img {
+    margin-right: 10px;
+}
+
+.curriculo-renan-body header figure {
+    margin: 20px 0;
+}
+
+.curriculo-renan-body header img {
+    border-radius: 50%;
+    border: 3px solid #4CAF50;
+}
+
+.curriculo-renan-body footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+    color: #ffffff;
 }
